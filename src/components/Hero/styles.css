@@ -1,0 +1,85 @@
+.hero {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    box-shadow: 0 4px 4px 4px black;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    position: absolute;
+    z-index: -5;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background .ornament {
+    background-image: url('./images/Ornament.svg');
+    z-index: -1;
+    width: 95%;
+    height: 100vh;
+    background-position: center;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 8rem 0;
+}
+
+.content h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+
+.content p {
+    color: gray;
+    text-align: center;
+}
+
+.content button {
+    background: greenyellow;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 24px;
+}
+
+
+
+/* Mobile */
+@media screen and (max-width: 720px) {
+
+
+    .content {
+        padding: 4rem 0;
+        width: 90%;
+        padding: 0 1rem;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+        font-weight: 900;
+        text-align: center;
+        color: white;
+    }
+
+    .content p {
+        font-size: 1rem;
+    }
+}

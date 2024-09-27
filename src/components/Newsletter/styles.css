@@ -1,0 +1,33 @@
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    background: greenyellow;
+    padding: 8rem 0;
+    gap: 2rem;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 8px #000;
+}
+
+.newsletter h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.newsletter h1 span {
+    color: rgba(0, 0, 0, 0.199);
+}
+
+.newsletter button {
+    border: none;
+    border-radius: 24px;
+    background: black;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: .5rem 2rem;
+    box-shadow: 0 4px 4px #000;
+}

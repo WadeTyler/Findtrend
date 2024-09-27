@@ -1,0 +1,29 @@
+.features {
+    background: white;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.features h1 {
+    font-size: 3rem;
+}
+
+.features .brands-container {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.features .brands-container .brands {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
